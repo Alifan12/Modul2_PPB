@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CetakPhoto</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Status">Status</string>
+    <string name="Order">Order</string>
+    <string name="Contact">Contact</string>
+</resources>

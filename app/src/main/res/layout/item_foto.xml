@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/dor1" />
+
+    <TextView
+        android:id="@+id/tv_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_cetak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cetak" />
+
+    <LinearLayout
+        android:id="@+id/ll_btnUkuran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_3r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2R"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+        <Button
+            android:id="@+id/btn_4r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4R"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+        <Button
+            android:id="@+id/btn_8r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8R"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+        <Button
+            android:id="@+id/btn_10r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10R"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+</LinearLayout>
